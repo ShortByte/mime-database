@@ -1,0 +1,29 @@
+{
+  "name": "mime-database",
+  "version": "1.0.0",
+  "description": "Media type database with typings",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc",
+    "build": "tsc",
+    "test": "mocha --reporter spec --bail --check-leaks test/"
+  },
+  "keywords": [
+    "mime",
+    "db",
+    "type",
+    "types",
+    "database",
+    "charset",
+    "charsets"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": "ShortByte/mime-database",
+  "devDependencies": {
+    "@types/node": "^18.15.10",
+    "mocha": "^10.2.0",
+    "typescript": "^5.0.2"
+  }
+}
